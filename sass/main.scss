@@ -1,0 +1,73 @@
+#profile-bar {
+  background: #eee;
+  padding: 0.9375em;
+
+  #profile-picture {
+    border: 6px solid #fff;
+  }
+
+  #profile-info {
+    padding-left: 0;
+
+    h2 {
+      color: #444;
+      margin-bottom: 0;
+    }
+
+    p {
+      color: #6f6f6f;
+      font-size: 0.75em;
+      font-style: italic;
+      margin-bottom: 0.25em;
+    }
+
+    .social-container {
+      margin-bottom: 0.375em;
+
+      .social-icon {
+        font-size: 2.25em;
+        margin-right: 0.125em;
+        color: #aaa;
+
+        &#linkedin-icon:hover {
+          color: #0084d7;
+        }
+
+        &#facebook-icon:hover {
+          color: #3350ae;
+        }
+
+        &#google-plus-icon:hover {
+          color: #d83d2d;
+        }
+
+        &#flickr-icon:hover {
+          color: #ff0084;
+        }
+      }
+    }
+
+    .contact-info {
+      color: #666;
+      font-size: 0.75em;
+      margin-bottom: 0.375em;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      i {
+        display: inline-block;
+        width: 1em;
+      }
+
+      a {
+        color: #666;
+
+        &:hover {
+          color: #2ba6cb;
+        }
+      }
+    }
+  }
+}
