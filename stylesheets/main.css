@@ -27,79 +27,100 @@ body {
   font-family: "open_sansregular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 44, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "open_sansbold", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+/* line 49, ../sass/main.scss */
 #profile-bar {
-  background: #eee;
+  background: #e9e9e9;
   padding: 0.9375em;
 }
-/* line 48, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 #profile-bar #profile-picture {
+  padding-right: 0;
+}
+/* line 56, ../sass/main.scss */
+#profile-bar #profile-picture img {
   border: 6px solid #fff;
 }
-/* line 52, ../sass/main.scss */
-#profile-bar #profile-info {
-  padding-left: 0;
-}
-/* line 55, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 #profile-bar #profile-info h2 {
-  font-family: "open_sansbold", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #444;
   margin-bottom: 0;
 }
-/* line 61, ../sass/main.scss */
+/* line 67, ../sass/main.scss */
 #profile-bar #profile-info p {
   font-family: "open_sanslight_italic", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #6f6f6f;
   font-size: 0.75em;
-  font-style: italic;
   margin-bottom: 0.25em;
 }
-/* line 69, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 #profile-bar #profile-info .social-container {
   margin-bottom: 0.375em;
 }
-/* line 72, ../sass/main.scss */
+/* line 77, ../sass/main.scss */
 #profile-bar #profile-info .social-container .social-icon {
   font-size: 2.25em;
   margin-right: 0.125em;
   color: #aaa;
 }
-/* line 77, ../sass/main.scss */
+/* line 82, ../sass/main.scss */
 #profile-bar #profile-info .social-container .social-icon#linkedin-icon:hover {
   color: #0084d7;
 }
-/* line 81, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 #profile-bar #profile-info .social-container .social-icon#facebook-icon:hover {
   color: #3350ae;
 }
-/* line 85, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 #profile-bar #profile-info .social-container .social-icon#google-plus-icon:hover {
   color: #d83d2d;
 }
-/* line 89, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 #profile-bar #profile-info .social-container .social-icon#flickr-icon:hover {
   color: #ff0084;
 }
-/* line 95, ../sass/main.scss */
+/* line 100, ../sass/main.scss */
 #profile-bar #profile-info .contact-info {
   color: #666;
   font-size: 0.75em;
   margin-bottom: 0.375em;
 }
-/* line 100, ../sass/main.scss */
+/* line 105, ../sass/main.scss */
 #profile-bar #profile-info .contact-info:last-of-type {
   margin-bottom: 0;
 }
-/* line 104, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 #profile-bar #profile-info .contact-info i {
   display: inline-block;
   width: 1em;
 }
-/* line 109, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 #profile-bar #profile-info .contact-info a {
   color: #666;
 }
-/* line 112, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 #profile-bar #profile-info .contact-info a:hover {
   color: #2ba6cb;
+}
+
+/* line 125, ../sass/main.scss */
+#about {
+  height: 480px;
+  background: url("../images/home.jpg") 50% 0 fixed;
+  color: #fff;
+}
+/* line 130, ../sass/main.scss */
+#about h1 {
+  color: #fff;
+  margin-top: 2.5em;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.25em 0.5em;
+}
+/* line 137, ../sass/main.scss */
+#about p {
+  font-size: 0.75em;
 }

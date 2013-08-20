@@ -22,8 +22,8 @@
   <div class="row">
     <div id="profile-bar" class="large-3 columns">
       <div class="row">
-        <div class="small-5 columns">
-          <img id="profile-picture" src="http://placehold.it/150x200">
+        <div id="profile-picture" class="small-5 columns">
+          <img src="http://placehold.it/120x150">
         </div>
         <div id="profile-info" class="small-7 columns">
           <h2>Larry Xu</h2>
@@ -40,6 +40,18 @@
           <div class="contact-info">
             <i class="icon-phone contact-icon"></i> : 408.334.3179
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="large-9 columns">
+      <div class="row">
+        <div id="about" class="large-12 columns">
+          <div class="row">
+            <h1>Hi, I'm Larry Xu</h1>
+          </div>
+          <p>I am a Berkeley-based web and graphic designer.</p>
+          <p>My passion is to develop innovative web applications and design beautiful promotional graphics. I have had experience crafting designs and websites for various clients, organizations, and companies, as well as completing independent projects and competitions. You can check out samples of my work below, as well as my <a href="#">resume</a> for more detailed information.</p>
         </div>
       </div>
     </div>
