@@ -1,74 +1,105 @@
-/* line 1, ../sass/main.scss */
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanslight_italic';
+  src: url("../fonts/OpenSans-LightItalic-webfont.eot");
+  src: url("../fonts/OpenSans-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-LightItalic-webfont.woff") format("woff"), url("../fonts/OpenSans-LightItalic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-LightItalic-webfont.svg#open_sanslight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../fonts/OpenSans-Bold-webfont.eot");
+  src: url("../fonts/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Bold-webfont.woff") format("woff"), url("../fonts/OpenSans-Bold-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Bold-webfont.svg#open_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 41, ../sass/main.scss */
+body {
+  font-family: "open_sansregular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+/* line 44, ../sass/main.scss */
 #profile-bar {
   background: #eee;
   padding: 0.9375em;
 }
-/* line 5, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 #profile-bar #profile-picture {
   border: 6px solid #fff;
 }
-/* line 9, ../sass/main.scss */
+/* line 52, ../sass/main.scss */
 #profile-bar #profile-info {
   padding-left: 0;
 }
-/* line 12, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 #profile-bar #profile-info h2 {
+  font-family: "open_sansbold", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #444;
   margin-bottom: 0;
 }
-/* line 17, ../sass/main.scss */
+/* line 61, ../sass/main.scss */
 #profile-bar #profile-info p {
+  font-family: "open_sanslight_italic", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #6f6f6f;
   font-size: 0.75em;
   font-style: italic;
   margin-bottom: 0.25em;
 }
-/* line 24, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 #profile-bar #profile-info .social-container {
   margin-bottom: 0.375em;
 }
-/* line 27, ../sass/main.scss */
+/* line 72, ../sass/main.scss */
 #profile-bar #profile-info .social-container .social-icon {
   font-size: 2.25em;
   margin-right: 0.125em;
   color: #aaa;
 }
-/* line 32, ../sass/main.scss */
+/* line 77, ../sass/main.scss */
 #profile-bar #profile-info .social-container .social-icon#linkedin-icon:hover {
   color: #0084d7;
 }
-/* line 36, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 #profile-bar #profile-info .social-container .social-icon#facebook-icon:hover {
   color: #3350ae;
 }
-/* line 40, ../sass/main.scss */
+/* line 85, ../sass/main.scss */
 #profile-bar #profile-info .social-container .social-icon#google-plus-icon:hover {
   color: #d83d2d;
 }
-/* line 44, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 #profile-bar #profile-info .social-container .social-icon#flickr-icon:hover {
   color: #ff0084;
 }
-/* line 50, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 #profile-bar #profile-info .contact-info {
   color: #666;
   font-size: 0.75em;
   margin-bottom: 0.375em;
 }
-/* line 55, ../sass/main.scss */
+/* line 100, ../sass/main.scss */
 #profile-bar #profile-info .contact-info:last-of-type {
   margin-bottom: 0;
 }
-/* line 59, ../sass/main.scss */
+/* line 104, ../sass/main.scss */
 #profile-bar #profile-info .contact-info i {
   display: inline-block;
   width: 1em;
 }
-/* line 64, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 #profile-bar #profile-info .contact-info a {
   color: #666;
 }
-/* line 67, ../sass/main.scss */
+/* line 112, ../sass/main.scss */
 #profile-bar #profile-info .contact-info a:hover {
   color: #2ba6cb;
 }

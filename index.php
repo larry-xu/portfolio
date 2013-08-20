@@ -23,7 +23,7 @@
     <div id="profile-bar" class="large-3 columns">
       <div class="row">
         <div class="small-5 columns">
-          <img id="profile-picture" src="http://placehold.it/150x190">
+          <img id="profile-picture" src="http://placehold.it/150x200">
         </div>
         <div id="profile-info" class="small-7 columns">
           <h2>Larry Xu</h2>

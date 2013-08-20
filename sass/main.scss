@@ -1,3 +1,46 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot');
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-LightItalic-webfont.svg#open_sanslight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$bodyFont: "open_sansregular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$italicFont: "open_sanslight_italic", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$boldFont: "open_sansbold", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
+body {
+  font-family: $bodyFont;
+}
 #profile-bar {
   background: #eee;
   padding: 0.9375em;
@@ -10,11 +53,13 @@
     padding-left: 0;
 
     h2 {
+      font-family: $boldFont;
       color: #444;
       margin-bottom: 0;
     }
 
     p {
+      font-family: $italicFont;
       color: #6f6f6f;
       font-size: 0.75em;
       font-style: italic;
