@@ -44,6 +44,7 @@ $boldFont: "open_sansbold", "Helvetica Neue", "Helvetica", Helvetica, Arial, san
 
 body {
   font-family: $bodyFont;
+  background: #f9f9f9;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -145,10 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section {
-  background: #f9f9f9;
-
   .section-header {
-    background: url('../images/web.jpg');
     @include background-size(cover);
     position: relative;
     padding-top: 2.5em;
@@ -173,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   .portfolio-grid {
     li {
       margin-bottom: 0.5em;
-      
+
       div {
         background: #fff;
         border: 1px solid #ccc;
@@ -193,4 +191,52 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
+}
+
+#web .section-header {
+  background-image: url('../images/web.jpg');
+}
+
+#graphics .section-header {
+  background-image: url('../images/design.jpg');
+}
+
+#contact .section-header {
+  background-image: url('../images/contact.png');
+}
+
+form {
+  label {
+    font-family: $boldFont;
+    margin-bottom: 0.5em;
+  }
+
+  input[type="text"], textarea {
+    margin-bottom: 1.5em;
+  }
+
+  textarea {
+    max-width: 100%;
+    min-height: 100px;
+  }
+
+  .button {
+    width: 100%;
+    font-weight: normal;
+    background: #245b96;
+    border-color: #114772;
+
+    &:hover {
+      background: #225286;
+    }
+
+    i {
+      margin-right: 0.35em;
+    }
+  }
+}
+
+footer {
+  font-size: 0.75em;
+  color: #999;
 }

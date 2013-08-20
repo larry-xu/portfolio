@@ -86,6 +86,77 @@
         </div>
       </div>
 
+      <div id="graphics" class="row section">
+        <div class="section-header">
+          <h1>Graphics</h1>
+        </div>
+        <div class="large-12 columns">
+          <p>As a graphic designer, I specialize in both print and online media. I am an advocate of fine typography, beautiful color schemes, and modern design. I am familiar with design software tools like Adobe Photoshop, Illustrator, and InDesign as well as digital photography and photo-editing. My knowledge stems from both personal experience and a Graphic Design course I studied at Monta Vista. My graphic design work consists of promotional campaigns for organizations and clients, as well as competitions.</p>
+          <hr>
+          <ul class="large-block-grid-3 portfolio-grid">
+            <li>
+              <div>
+                <img src="images/web/la_pluma_small.png">
+                <h6>La Pluma</h6>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="images/web/mvwebdev_small.png">
+                <h6>MV WebDev</h6>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="images/web/mvfbla_small.png">
+                <h6>MV FBLA</h6>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="contact" class="row section">
+        <div class="section-header">
+          <h1>Contact me</h1>
+        </div>
+        <div class="large-12 columns">
+          <p>Want to launch your next business idea? Need marketing or web design work done? Send me a message and get in touch. I currently reside in Berkeley, CA but have managed to work with clients from all over the country.</p>
+          <form>
+            <div class="row">
+              <div class="large-12 columns">
+                <label>Name</label>
+                <input type="text" placeholder="Harvey Specter">
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <label>Email</label>
+                <input type="text" placeholder="harvey@pearsonhardman.com">
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <label>Say hello</label>
+                <textarea></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <button type="submit" class="small button"><i class="icon-envelope"></i>Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <footer class="row">
+        <div class="large-12 columns">
+          <hr>
+          <p>&copy; Copyright 2013 Larry Xu. All rights reserved.</p>
+        </div> 
+      </footer>
+
     </div>
   </div>
 
