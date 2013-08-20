@@ -1,3 +1,7 @@
+@import "compass/css3/background-size";
+@import "compass/css3/inline-block";
+@import "compass/css3/text-shadow";
+
 @font-face {
     font-family: 'open_sansregular';
     src: url('../fonts/OpenSans-Regular-webfont.eot');
@@ -107,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
       }
 
       i {
-        display: inline-block;
+        @include inline-block;
         width: 1em;
       }
 
@@ -123,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about {
-  height: 480px;
+  min-height: 480px;
   background: url('../images/home.jpg') 50% 0 fixed;
   color: #fff;
 
@@ -136,5 +140,57 @@ h1, h2, h3, h4, h5, h6 {
 
   p {
     font-size: 0.75em;
+    @include text-shadow(0 1px 1px rgba(0,0,0,0.4));
+  }
+}
+
+.section {
+  background: #f9f9f9;
+
+  .section-header {
+    background: url('../images/web.jpg');
+    @include background-size(cover);
+    position: relative;
+    padding-top: 2.5em;
+    min-height: 9em;
+    margin-bottom: 1em;
+
+    h1 {
+      color: #fff;
+      background: rgba(0,0,0,0.4);
+      padding: 0.25em 0.5em;
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      width: 100%;
+    }
+  }
+
+  p {
+    font-size: 0.875em;
+  }
+
+  .portfolio-grid {
+    li {
+      margin-bottom: 0.5em;
+      
+      div {
+        background: #fff;
+        border: 1px solid #ccc;
+        border-bottom: 3px solid #4d83ad;
+
+        img {
+          border-bottom: 1px solid #ccc;
+        }
+
+        h6 {
+          margin: 0.625em 0.5em;
+
+          a {
+            margin-left: 0.375em;
+          }
+        }
+      }
+    }
   }
 }

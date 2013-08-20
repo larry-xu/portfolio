@@ -45,6 +45,7 @@
     </div>
 
     <div class="large-9 columns">
+
       <div class="row">
         <div id="about" class="large-12 columns">
           <div class="row">
@@ -54,6 +55,37 @@
           <p>My passion is to develop innovative web applications and design beautiful promotional graphics. I have had experience crafting designs and websites for various clients, organizations, and companies, as well as completing independent projects and competitions. You can check out samples of my work below, as well as my <a href="#">resume</a> for more detailed information.</p>
         </div>
       </div>
+
+      <div id="web" class="row section">
+        <div class="section-header">
+          <h1>Websites</h1>
+        </div>
+        <div class="large-12 columns">
+          <p>As a web developer, I have worked on various projects from initial design and layout to development and deployment using the latest web technologies. My programming knowledge primarily consists of Java, HTML5, CSS3, JavaScript, and PHP. I became proficient in Java from taking AP Computer Science at Monta Vista High School, and JavaScript from Stanford University's Client-Side Internet Technologies course. I have created websites and applications for various organizations as well as completed internships at companies doing application development work. I have also submitted and presented my websites for competitions, with great success. Live website links for some examples are provided.</p>
+          <hr>
+          <ul class="large-block-grid-3 portfolio-grid">
+            <li>
+              <div>
+                <img src="images/web/la_pluma_small.png">
+                <h6>La Pluma<a href="http://lapluma.org/"><i class="icon-external-link-sign"></i></a></h6>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="images/web/mvwebdev_small.png">
+                <h6>MV WebDev<a href="http://www.mvwebdev.com/"><i class="icon-external-link-sign"></i></a></h6>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="images/web/mvfbla_small.png">
+                <h6>MV FBLA<a href="http://www.mvfbla.org/"><i class="icon-external-link-sign"></i></a></h6>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
     </div>
   </div>
 
