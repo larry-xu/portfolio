@@ -20,34 +20,44 @@
 <body>
 
   <div class="row">
-    <div id="profile-bar" class="large-3 columns">
+    <div id="profile-bar" class="medium-3 large-2 columns">
       <div class="row">
-        <div id="profile-picture" class="small-5 columns">
+        <div id="profile-picture" class="small-5 medium-12 columns">
           <img src="http://placehold.it/120x150">
         </div>
-        <div id="profile-info" class="small-7 columns">
+        <div id="profile-info" class="small-7 medium-12 columns">
           <h2>Larry Xu</h2>
           <p>Web and Graphic Designer</p>
-          <div class="social-container">
-            <a id="linkedin-icon" class="social-icon" href="#"><i class="icon-linkedin-sign"></i></a>
-            <a id="facebook-icon" class="social-icon" href="#"><i class="icon-facebook-sign"></i></a>
-            <a id="google-plus-icon" class="social-icon" href="#"><i class="icon-google-plus-sign"></i></a>
-            <a id="flickr-icon" class="social-icon" href="#"><i class="icon-flickr"></i></a>
+
+          <div class="contact-container">
+            <div class="social-container">
+              <a id="linkedin-icon" class="social-icon" href="#"><i class="icon-linkedin-sign"></i></a>
+              <a id="facebook-icon" class="social-icon" href="#"><i class="icon-facebook-sign"></i></a>
+              <a id="google-plus-icon" class="social-icon" href="#"><i class="icon-google-plus-sign"></i></a>
+              <a id="flickr-icon" class="social-icon" href="#"><i class="icon-flickr"></i></a>
+            </div>
+            <div class="contact-info">
+              <i class="icon-envelope"></i> : <a href="#">larry@larryxu.com</a>
+            </div>
+            <div class="contact-info">
+              <i class="icon-phone contact-icon"></i> : 408.334.3179
+            </div>
           </div>
-          <div class="contact-info">
-            <i class="icon-envelope"></i> : <a href="#">larry@larryxu.com</a>
-          </div>
-          <div class="contact-info">
-            <i class="icon-phone contact-icon"></i> : 408.334.3179
-          </div>
+
+          <ul id="nav" class="row side-nav hide-for-small" data-magellan-expedition>
+            <li data-magellan-arrival="about" class="active"><a href="#about" class="scrollTo"><i class="icon-user"></i>About</a></li>
+            <li data-magellan-arrival="web"><a href="#web" class="scrollTo"><i class="icon-desktop"></i>Web</a></li>
+            <li data-magellan-arrival="graphics"><a href="#graphics" class="scrollTo"><i class="icon-picture"></i>Graphics</a></li>
+            <li data-magellan-arrival="contact"><a href="#contact" class="scrollTo"><i class="icon-comment"></i>Contact</a></li>
+          </ul>
         </div>
       </div>
     </div>
 
-    <div class="large-9 columns">
+    <div class="medium-9 large-10 columns">
 
       <div class="row">
-        <div id="about" class="large-12 columns">
+        <div id="about" class="large-12 columns" data-magellan-destination="about">
           <div class="row">
             <h1>Hi, I'm Larry Xu</h1>
           </div>
@@ -56,14 +66,14 @@
         </div>
       </div>
 
-      <div id="web" class="row section">
+      <div id="web" class="row section" data-magellan-destination="web">
         <div class="section-header">
           <h1>Websites</h1>
         </div>
         <div class="large-12 columns">
           <p>As a web developer, I have worked on various projects from initial design and layout to development and deployment using the latest web technologies. My programming knowledge primarily consists of Java, HTML5, CSS3, JavaScript, and PHP. I became proficient in Java from taking AP Computer Science at Monta Vista High School, and JavaScript from Stanford University's Client-Side Internet Technologies course. I have created websites and applications for various organizations as well as completed internships at companies doing application development work. I have also submitted and presented my websites for competitions, with great success. Live website links for some examples are provided.</p>
           <hr>
-          <ul class="large-block-grid-3 portfolio-grid">
+          <ul class="large-block-grid-2 portfolio-grid">
             <li>
               <div>
                 <img src="images/web/la_pluma_small.png">
@@ -86,14 +96,14 @@
         </div>
       </div>
 
-      <div id="graphics" class="row section">
+      <div id="graphics" class="row section" data-magellan-destination="graphics">
         <div class="section-header">
           <h1>Graphics</h1>
         </div>
         <div class="large-12 columns">
           <p>As a graphic designer, I specialize in both print and online media. I am an advocate of fine typography, beautiful color schemes, and modern design. I am familiar with design software tools like Adobe Photoshop, Illustrator, and InDesign as well as digital photography and photo-editing. My knowledge stems from both personal experience and a Graphic Design course I studied at Monta Vista. My graphic design work consists of promotional campaigns for organizations and clients, as well as competitions.</p>
           <hr>
-          <ul class="large-block-grid-3 portfolio-grid">
+          <ul class="large-block-grid-2 portfolio-grid">
             <li>
               <div>
                 <img src="images/web/la_pluma_small.png">
@@ -116,7 +126,7 @@
         </div>
       </div>
 
-      <div id="contact" class="row section">
+      <div id="contact" class="row section" data-magellan-destination="contact">
         <div class="section-header">
           <h1>Contact me</h1>
         </div>
@@ -202,5 +212,7 @@
   <script>
     $(document).foundation();
   </script>
+
+  <script src="javascripts/main.js"></script>
 </body>
 </html>
