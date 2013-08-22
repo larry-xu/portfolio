@@ -56,8 +56,8 @@
 
     <div class="medium-9 large-10 columns">
 
-      <div class="row">
-        <div id="about" class="large-12 columns" data-magellan-destination="about">
+      <div id="about" class="row" data-magellan-destination="about">
+        <div class="large-12 columns">
           <div class="row">
             <h1>Hi, I'm Larry Xu</h1>
           </div>
@@ -73,17 +73,17 @@
         <div class="large-12 columns">
           <p>As a web developer, I have worked on various projects from initial design and layout to development and deployment using the latest web technologies. My programming knowledge primarily consists of Java, HTML5, CSS3, JavaScript, PHP, Rails, and Node.js. I have created websites and applications for various organizations as well as completed internships at companies doing application development work. I have also submitted and presented my websites for competitions, with great success. Live website links for some examples are provided below.</p>
           <hr>
-          <ul class="large-block-grid-2 portfolio-grid">
+          <ul class="large-block-grid-2 portfolio-grid clearing-thumbs" data-clearing>
             <li>
-              <img src="images/web/la_pluma_small.png">
+              <a class="thumbnail" href="images/web/la_pluma.png"><img src="images/web/la_pluma_small.png" data-caption="<strong>La Pluma:</strong> La Pluma literary magazine commissioned me to develop their online public archival and submission system for students to post creative works and media."></a>
               <h6>La Pluma<a href="http://lapluma.org/"><i class="icon-external-link"></i></a></h6>
             </li>
             <li>
-              <img src="images/web/mvwebdev_small.png">
+              <a class="thumbnail" href="images/web/mvwebdev.png"><img src="images/web/mvwebdev_small.png" data-caption="<strong>MV WebDev:</strong> As Vice President of Monta Vista WebDev, I created this website to reach out to students who might be interested in web design."></a>
               <h6>MV WebDev<a href="http://www.mvwebdev.com/"><i class="icon-external-link"></i></a></h6>
             </li>
             <li>
-              <img src="images/web/mvfbla_small.png">
+              <a class="thumbnail" href="images/web/mvfbla.png"><img src="images/web/mvfbla_small.png" data-caption="<strong>MV FBLA:</strong> As Director of Technology of my local FBLA chapter, I created this website to enhance MVFBLA’s online presence. Features include a news feed, photo gallery, and competitive information."></a>
               <h6>MV FBLA<a href="http://www.mvfbla.org/"><i class="icon-external-link"></i></a></h6>
             </li>
           </ul>
@@ -97,18 +97,18 @@
         <div class="large-12 columns">
           <p>As a graphic designer, I specialize in both print and online media. I am an advocate of fine typography, beautiful color schemes, and modern design. I am familiar with design software tools like Adobe Photoshop, Illustrator, and InDesign as well as digital photography and photo-editing. My knowledge stems from both personal experience and a Graphic Design course I studied at Monta Vista. My graphic design work consists of promotional campaigns for organizations and clients, as well as competitions.</p>
           <hr>
-          <ul class="large-block-grid-2 portfolio-grid">
+          <ul class="large-block-grid-2 portfolio-grid clearing-thumbs" data-clearing>
             <li>
-              <img src="images/web/la_pluma_small.png">
-              <h6>La Pluma</h6>
+              <a class="thumbnail" href="images/graphics/ddp.png"><img src="images/graphics/ddp_small.png" data-caption="<strong>Xtreme Adventure Travel:</strong> For the 2013 FBLA Digital Design and Promotion competition, I created a brand identity, including logo and promotional package, for a travel tour company."></a>
+              <h6>Xtreme Adventure Travel</h6>
             </li>
             <li>
-              <img src="images/web/mvwebdev_small.png">
-              <h6>MV WebDev</h6>
+              <a class="thumbnail" href="images/graphics/mvwebdev_graphics.png"><img src="images/graphics/mvwebdev_graphics_small.png" data-caption="<strong>MV WebDev Promotion:</strong> I designed all marketing materials for MV WebDev club's promotion towards getting members interested in web design."></a>
+              <h6>MV WebDev Promotion</h6>
             </li>
             <li>
-              <img src="images/web/mvfbla_small.png">
-              <h6>MV FBLA</h6>
+              <a class="thumbnail" href="images/graphics/mvfbla_graphics.png"><img src="images/graphics/mvfbla_graphics_small.png" data-caption="<strong>MV FBLA Promotion:</strong> I crafted MVFBLA's new promotional campaign including logo, banners, and fliers to help increase membership and club awareness."></a>
+              <h6>MV FBLA Promotion</h6>
             </li>
           </ul>
         </div>

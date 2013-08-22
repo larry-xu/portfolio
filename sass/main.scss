@@ -1,4 +1,6 @@
+@import "compass/css3/appearance";
 @import "compass/css3/background-size";
+@import "compass/css3/border-radius";
 @import "compass/css3/box-shadow";
 @import "compass/css3/inline-block";
 @import "compass/css3/text-shadow";
@@ -52,6 +54,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  @include boldFont;
+}
+
+strong {
   @include boldFont;
 }
 
@@ -159,6 +165,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section {
+  padding-bottom: 20px;
+
   .section-header {
     @include background-size(cover);
     position: relative;
@@ -182,12 +190,25 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .portfolio-grid {
-    li {
-      padding-bottom: 0.25em;
+    margin: 0 -0.625em;
 
-      img {
-        width: 100%;
+    li {
+      padding-bottom: 0.5em;
+      margin: 0;
+      clear: none;
+
+      > a {
+        display: block;
         border: 1px solid #ddd;
+
+        &.disabled {
+          cursor: default;
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
+        }
+
+        img {
+          width: 100%;
+        }
       }
 
       h6 {
@@ -221,6 +242,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 form {
+  margin: 0;
+
   label {
     @include boldFont;
     margin-bottom: 0.5em;
@@ -228,6 +251,8 @@ form {
 
   input[type="text"], textarea {
     @include box-shadow(none);
+    @include appearance(none);
+    @include border-radius(0);
     margin-bottom: 1.5em;
 
     &:focus {
@@ -262,12 +287,37 @@ footer {
   color: #999;
 }
 
+.clearing-assembled .clearing-container .visible-img {
+  height: 85%;
+}
+
+.clearing-assembled .clearing-container .carousel {
+  height: 14.5%;
+  margin-top: 0.5%;
+}
+
+.clearing-blackout .fix-height a.thumbnail {
+  border: none;
+}
+
+.clearing-caption {
+  text-align: left;
+}
+
+.clearing-main-prev, .clearing-main-next {
+  display: none;
+}
+
 @media only screen and (min-width: 640px) {
   .hide-for-medium, .hide-for-medium-up {
     display: none !important;
   }
   .hide-for-small {
     display: inherit !important;
+  }
+
+  #about p, .section p {
+    font-size: 1em;
   }
 
   #profile-bar {
