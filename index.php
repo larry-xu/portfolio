@@ -23,7 +23,7 @@
     <div id="profile-bar" class="medium-3 large-2 columns">
       <div class="row">
         <div id="profile-picture" class="small-5 medium-12 columns">
-          <img src="http://placehold.it/120x150">
+          <img src="images/profile.jpg">
         </div>
         <div id="profile-info" class="small-7 medium-12 columns">
           <h2>Larry Xu</h2>
@@ -71,26 +71,20 @@
           <h1>Websites</h1>
         </div>
         <div class="large-12 columns">
-          <p>As a web developer, I have worked on various projects from initial design and layout to development and deployment using the latest web technologies. My programming knowledge primarily consists of Java, HTML5, CSS3, JavaScript, and PHP. I became proficient in Java from taking AP Computer Science at Monta Vista High School, and JavaScript from Stanford University's Client-Side Internet Technologies course. I have created websites and applications for various organizations as well as completed internships at companies doing application development work. I have also submitted and presented my websites for competitions, with great success. Live website links for some examples are provided.</p>
+          <p>As a web developer, I have worked on various projects from initial design and layout to development and deployment using the latest web technologies. My programming knowledge primarily consists of Java, HTML5, CSS3, JavaScript, PHP, Rails, and Node.js. I have created websites and applications for various organizations as well as completed internships at companies doing application development work. I have also submitted and presented my websites for competitions, with great success. Live website links for some examples are provided below.</p>
           <hr>
           <ul class="large-block-grid-2 portfolio-grid">
             <li>
-              <div>
-                <img src="images/web/la_pluma_small.png">
-                <h6>La Pluma<a href="http://lapluma.org/"><i class="icon-external-link-sign"></i></a></h6>
-              </div>
+              <img src="images/web/la_pluma_small.png">
+              <h6>La Pluma<a href="http://lapluma.org/"><i class="icon-external-link"></i></a></h6>
             </li>
             <li>
-              <div>
-                <img src="images/web/mvwebdev_small.png">
-                <h6>MV WebDev<a href="http://www.mvwebdev.com/"><i class="icon-external-link-sign"></i></a></h6>
-              </div>
+              <img src="images/web/mvwebdev_small.png">
+              <h6>MV WebDev<a href="http://www.mvwebdev.com/"><i class="icon-external-link"></i></a></h6>
             </li>
             <li>
-              <div>
-                <img src="images/web/mvfbla_small.png">
-                <h6>MV FBLA<a href="http://www.mvfbla.org/"><i class="icon-external-link-sign"></i></a></h6>
-              </div>
+              <img src="images/web/mvfbla_small.png">
+              <h6>MV FBLA<a href="http://www.mvfbla.org/"><i class="icon-external-link"></i></a></h6>
             </li>
           </ul>
         </div>
@@ -105,22 +99,16 @@
           <hr>
           <ul class="large-block-grid-2 portfolio-grid">
             <li>
-              <div>
-                <img src="images/web/la_pluma_small.png">
-                <h6>La Pluma</h6>
-              </div>
+              <img src="images/web/la_pluma_small.png">
+              <h6>La Pluma</h6>
             </li>
             <li>
-              <div>
-                <img src="images/web/mvwebdev_small.png">
-                <h6>MV WebDev</h6>
-              </div>
+              <img src="images/web/mvwebdev_small.png">
+              <h6>MV WebDev</h6>
             </li>
             <li>
-              <div>
-                <img src="images/web/mvfbla_small.png">
-                <h6>MV FBLA</h6>
-              </div>
+              <img src="images/web/mvfbla_small.png">
+              <h6>MV FBLA</h6>
             </li>
           </ul>
         </div>
@@ -135,25 +123,25 @@
           <form>
             <div class="row">
               <div class="large-12 columns">
-                <label>Name</label>
-                <input type="text" placeholder="Harvey Specter">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Harvey Specter">
               </div>
             </div>
             <div class="row">
               <div class="large-12 columns">
-                <label>Email</label>
-                <input type="text" placeholder="harvey@pearsonhardman.com">
+                <label for="email">Email</label>
+                <input id="email" type="text" placeholder="harvey@pearsonhardman.com">
               </div>
             </div>
             <div class="row">
               <div class="large-12 columns">
-                <label>Say hello</label>
-                <textarea></textarea>
+                <label for="message">Say hello</label>
+                <textarea id="message"></textarea>
               </div>
             </div>
             <div class="row">
               <div class="large-12 columns">
-                <button type="submit" class="small button"><i class="icon-envelope"></i>Send</button>
+                <button type="submit" class="button"><i class="icon-envelope"></i>Send</button>
               </div>
             </div>
           </form>
