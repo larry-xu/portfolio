@@ -90,7 +90,7 @@
         <div class="large-12 columns">
           <p>As a web developer, I have worked on various projects from initial design and layout to development and deployment using the latest web technologies. My programming knowledge primarily consists of Java, HTML5, CSS3, JavaScript, PHP, Rails, and Node.js. I have created websites and applications for various organizations as well as completed internships at companies doing application development work. I have also submitted and presented my websites for competitions, with great success. Live website links for some examples are provided below.</p>
           <hr>
-          <ul class="large-block-grid-2 portfolio-grid clearing-thumbs" data-clearing>
+          <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 portfolio-grid clearing-thumbs" data-clearing>
             <li>
               <a class="thumbnail" href="images/web/la_pluma.png"><img src="images/web/la_pluma_small.png" data-caption="<strong>La Pluma:</strong> La Pluma literary magazine commissioned me to develop their online public archival and submission system for students to post creative works and media."></a>
               <h6>La Pluma<a href="http://lapluma.org/"><i class="icon-external-link"></i></a></h6>
@@ -114,7 +114,7 @@
         <div class="large-12 columns">
           <p>As a graphic designer, I specialize in both print and online media. I am an advocate of fine typography, beautiful color schemes, and modern design. I am familiar with design software tools like Adobe Photoshop, Illustrator, and InDesign as well as digital photography and photo-editing. My knowledge stems from both personal experience and a Graphic Design course I studied at Monta Vista. My graphic design work consists of promotional campaigns for organizations and clients, as well as competitions.</p>
           <hr>
-          <ul class="large-block-grid-2 portfolio-grid clearing-thumbs" data-clearing>
+          <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 portfolio-grid clearing-thumbs" data-clearing>
             <li>
               <a class="thumbnail" href="images/graphics/ddp.png"><img src="images/graphics/ddp_small.png" data-caption="<strong>Xtreme Adventure Travel:</strong> For the 2013 FBLA Digital Design and Promotion competition, I created a brand identity, including logo and promotional package, for a travel tour company."></a>
               <h6>Xtreme Adventure Travel</h6>

@@ -155,10 +155,10 @@ strong {
 }
 /* line 170, ../sass/main.scss */
 .section .section-header {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   position: relative;
   padding-top: 2.5em;
   min-height: 9em;
@@ -310,7 +310,7 @@ footer {
 }
 
 /* line 303, ../sass/main.scss */
-.clearing-blackout .fix-height a.thumbnail {
+.clearing-blackout li a.thumbnail {
   border: none;
 }
 
@@ -423,23 +423,33 @@ footer {
   .section .section-header {
     min-height: 12em;
   }
+
+  /* line 403, ../sass/main.scss */
+  .medium-block-grid-2 > li {
+    width: 50%;
+  }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 405, ../sass/main.scss */
+  /* line 409, ../sass/main.scss */
+  .hide-for-small, .hide-for-medium-down, .hide-for-large-down {
+    display: block !important;
+  }
+
+  /* line 413, ../sass/main.scss */
   #about {
     min-height: 680px;
     padding-bottom: 2em;
-    background-size: 100%;
+    background-position: 80% 0;
   }
-  /* line 410, ../sass/main.scss */
+  /* line 418, ../sass/main.scss */
   #about h1 {
     margin-top: 5em;
   }
-  /* line 414, ../sass/main.scss */
+  /* line 422, ../sass/main.scss */
   #about p {
     margin-left: 0.625em;
   }
-  /* line 419, ../sass/main.scss */
+  /* line 427, ../sass/main.scss */
   #about .latest-projects h5 {
     background: #245b96;
     padding: 0.25em 0.75em 0.375em;
@@ -449,11 +459,11 @@ footer {
     float: left;
     margin-bottom: 1.5em;
   }
-  /* line 429, ../sass/main.scss */
+  /* line 437, ../sass/main.scss */
   #about .latest-projects li {
     margin-bottom: 1em;
   }
-  /* line 432, ../sass/main.scss */
+  /* line 440, ../sass/main.scss */
   #about .latest-projects li h6 {
     margin-top: 0.5em;
     color: #fff;
@@ -461,8 +471,22 @@ footer {
     text-align: center;
   }
 
-  /* line 442, ../sass/main.scss */
+  /* line 450, ../sass/main.scss */
   .section .section-header {
     min-height: 19em;
+  }
+
+  /* line 454, ../sass/main.scss */
+  .large-block-grid-3 > li {
+    width: 33.33333%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  /* line 460, ../sass/main.scss */
+  #about {
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
   }
 }
