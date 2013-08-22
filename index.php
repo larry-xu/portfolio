@@ -61,8 +61,25 @@
           <div class="row">
             <h1>Hi, I'm Larry Xu</h1>
           </div>
-          <p>I am a Berkeley-based web and graphic designer.</p>
-          <p>My passion is to develop innovative web applications and design beautiful promotional graphics. I have had experience crafting designs and websites for various clients, organizations, and companies, as well as completing independent projects and competitions. You can check out samples of my work below, as well as my <a href="#">resume</a> for more detailed information.</p>
+          <div class="row">
+            <div class="large-8 columns">
+              <p>I am a Berkeley-based web and graphic designer.</p>
+              <p>My passion is to develop innovative web applications and design beautiful promotional graphics. I have had experience crafting designs and websites for various clients, organizations, and companies, as well as completing independent projects and competitions. You can check out samples of my work below, as well as my <a href="#">resume</a> for more detailed information.</p>
+            </div>
+            <div class="large-4 columns hide-for-medium-down latest-projects">
+              <h5>Latest Projects</h5>
+              <ul class="no-bullet">
+                <li>
+                  <img src="images/web/la_pluma_small.png">
+                  <h6>La Pluma</h6>
+                </li>
+                <li>
+                  <img src="images/graphics/ddp_small.png">
+                  <h6>Xtreme Adventure Travel</h6>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -119,32 +136,38 @@
           <h1>Contact me</h1>
         </div>
         <div class="large-12 columns">
-          <p>Want to launch your next business idea? Need marketing or web design work done? Send me a message and get in touch. I currently reside in Berkeley, CA but have managed to work with clients from all over the country.</p>
-          <form>
-            <div class="row">
-              <div class="large-12 columns">
-                <label for="name">Name</label>
-                <input id="name" type="text" placeholder="Harvey Specter">
-              </div>
+          <div class="row">
+            <div class="large-5 columns">
+              <p>Want to launch your next business idea? Need marketing or web design work done? Send me a message and get in touch. I currently reside in Berkeley, CA but have managed to work with clients from all over the country.</p>
             </div>
-            <div class="row">
-              <div class="large-12 columns">
-                <label for="email">Email</label>
-                <input id="email" type="text" placeholder="harvey@pearsonhardman.com">
-              </div>
+            <div class="large-7 columns">
+              <form>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Harvey Specter">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label for="email">Email</label>
+                    <input id="email" type="text" placeholder="harvey@pearsonhardman.com">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label for="message">Say hello</label>
+                    <textarea id="message"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <button type="submit" class="button"><i class="icon-envelope"></i>Send</button>
+                  </div>
+                </div>
+              </form>
             </div>
-            <div class="row">
-              <div class="large-12 columns">
-                <label for="message">Say hello</label>
-                <textarea id="message"></textarea>
-              </div>
-            </div>
-            <div class="row">
-              <div class="large-12 columns">
-                <button type="submit" class="button"><i class="icon-envelope"></i>Send</button>
-              </div>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
 

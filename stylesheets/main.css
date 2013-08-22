@@ -420,3 +420,45 @@ footer {
     min-height: 12em;
   }
 }
+@media only screen and (min-width: 1024px) {
+  /* line 401, ../sass/main.scss */
+  #about {
+    min-height: 680px;
+    padding-bottom: 2em;
+    background-size: 100%;
+  }
+  /* line 406, ../sass/main.scss */
+  #about h1 {
+    margin-top: 5em;
+  }
+  /* line 410, ../sass/main.scss */
+  #about p {
+    margin-left: 0.625em;
+  }
+  /* line 415, ../sass/main.scss */
+  #about .latest-projects h5 {
+    background: #245b96;
+    padding: 0.25em 0.75em 0.375em;
+    color: #fff;
+    font-family: "open_sanslight_italic", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    float: left;
+    margin-bottom: 1.5em;
+  }
+  /* line 425, ../sass/main.scss */
+  #about .latest-projects li {
+    margin-bottom: 1em;
+  }
+  /* line 428, ../sass/main.scss */
+  #about .latest-projects li h6 {
+    margin-top: 0.5em;
+    color: #fff;
+    font-family: "open_sansregular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+
+  /* line 438, ../sass/main.scss */
+  .section .section-header {
+    min-height: 19em;
+  }
+}

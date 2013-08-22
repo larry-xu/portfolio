@@ -396,3 +396,46 @@ footer {
     min-height: 12em;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  #about {
+    min-height: 680px;
+    padding-bottom: 2em;
+    background-size: 100%;
+
+    h1 {
+      margin-top: 5em;
+    }
+
+    p {
+      margin-left: 0.625em;
+    }
+
+    .latest-projects {
+      h5 {
+        background: #245b96;
+        padding: 0.25em 0.75em 0.375em;
+        color: #fff;
+        font-family: $italicFont;
+        font-weight: normal;
+        float: left;
+        margin-bottom: 1.5em;
+      }
+
+      li {
+        margin-bottom: 1em;
+
+        h6 {
+          margin-top: 0.5em;
+          color: #fff;
+          font-family: $bodyFont;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .section .section-header {
+    min-height: 19em;
+  }
+}
