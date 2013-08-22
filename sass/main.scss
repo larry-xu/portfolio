@@ -265,6 +265,10 @@ form {
     min-height: 100px;
   }
 
+  .error input, .error textarea, .error select {
+    margin-bottom: 1.5em;
+  }
+
   .button {
     width: 100%;
     font-weight: normal;

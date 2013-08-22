@@ -270,6 +270,10 @@ form textarea {
   min-height: 100px;
 }
 /* line 268, ../sass/main.scss */
+form .error input, form .error textarea, form .error select {
+  margin-bottom: 1.5em;
+}
+/* line 272, ../sass/main.scss */
 form .button {
   width: 100%;
   font-weight: normal;
@@ -279,116 +283,116 @@ form .button {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 275, ../sass/main.scss */
+/* line 279, ../sass/main.scss */
 form .button:hover {
   background: #225286;
 }
-/* line 279, ../sass/main.scss */
+/* line 283, ../sass/main.scss */
 form .button i {
   margin-right: 0.35em;
 }
 
-/* line 285, ../sass/main.scss */
+/* line 289, ../sass/main.scss */
 footer {
   font-size: 0.75em;
   color: #999;
 }
 
-/* line 290, ../sass/main.scss */
+/* line 294, ../sass/main.scss */
 .clearing-assembled .clearing-container .visible-img {
   height: 85%;
 }
 
-/* line 294, ../sass/main.scss */
+/* line 298, ../sass/main.scss */
 .clearing-assembled .clearing-container .carousel {
   height: 14.5%;
   margin-top: 0.5%;
 }
 
-/* line 299, ../sass/main.scss */
+/* line 303, ../sass/main.scss */
 .clearing-blackout .fix-height a.thumbnail {
   border: none;
 }
 
-/* line 303, ../sass/main.scss */
+/* line 307, ../sass/main.scss */
 .clearing-caption {
   text-align: left;
 }
 
-/* line 307, ../sass/main.scss */
+/* line 311, ../sass/main.scss */
 .clearing-main-prev, .clearing-main-next {
   display: none;
 }
 
 @media only screen and (min-width: 640px) {
-  /* line 312, ../sass/main.scss */
+  /* line 316, ../sass/main.scss */
   .hide-for-medium, .hide-for-medium-up {
     display: none !important;
   }
 
-  /* line 315, ../sass/main.scss */
+  /* line 319, ../sass/main.scss */
   .hide-for-small {
     display: inherit !important;
   }
 
-  /* line 319, ../sass/main.scss */
+  /* line 323, ../sass/main.scss */
   #about p, .section p {
     font-size: 1em;
   }
 
-  /* line 323, ../sass/main.scss */
+  /* line 327, ../sass/main.scss */
   #profile-bar {
     position: fixed;
     height: 100%;
     text-align: right;
     border-right: 1px solid #ccc;
   }
-  /* line 329, ../sass/main.scss */
+  /* line 333, ../sass/main.scss */
   #profile-bar #profile-picture {
     padding-right: 0.9375em;
   }
-  /* line 332, ../sass/main.scss */
+  /* line 336, ../sass/main.scss */
   #profile-bar #profile-picture img {
     height: 130px;
   }
-  /* line 337, ../sass/main.scss */
+  /* line 341, ../sass/main.scss */
   #profile-bar #profile-info {
     position: static;
   }
-  /* line 340, ../sass/main.scss */
+  /* line 344, ../sass/main.scss */
   #profile-bar #profile-info h2 {
     font-size: 1.675em;
   }
-  /* line 344, ../sass/main.scss */
+  /* line 348, ../sass/main.scss */
   #profile-bar #profile-info p {
     font-size: 0.875em;
   }
-  /* line 348, ../sass/main.scss */
+  /* line 352, ../sass/main.scss */
   #profile-bar #profile-info .contact-container {
     position: absolute;
     bottom: 0;
     margin-bottom: 0.9375em;
     text-align: left;
   }
-  /* line 356, ../sass/main.scss */
+  /* line 360, ../sass/main.scss */
   #profile-bar [data-magellan-expedition] {
     background: inherit;
     padding: 0.875em 0;
   }
-  /* line 361, ../sass/main.scss */
+  /* line 365, ../sass/main.scss */
   #profile-bar ul.side-nav li {
     margin: 0;
     border-top: 1px solid #ccc;
     text-align: left;
   }
-  /* line 366, ../sass/main.scss */
+  /* line 370, ../sass/main.scss */
   #profile-bar ul.side-nav li a {
     padding: 0.875em 1.5em;
     font-family: "open_sansbold", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     color: #666;
   }
-  /* line 371, ../sass/main.scss */
+  /* line 375, ../sass/main.scss */
   #profile-bar ul.side-nav li a i {
     margin-right: 0.25em;
     display: -moz-inline-stack;
@@ -401,41 +405,41 @@ footer {
     width: 1.5em;
     text-align: center;
   }
-  /* line 380, ../sass/main.scss */
+  /* line 384, ../sass/main.scss */
   #profile-bar ul.side-nav li:last-of-type {
     border-bottom: 1px solid #ccc;
   }
-  /* line 384, ../sass/main.scss */
+  /* line 388, ../sass/main.scss */
   #profile-bar ul.side-nav li:hover, #profile-bar ul.side-nav li.active {
     background: #284c72;
     border-top-color: #1A3658;
   }
-  /* line 388, ../sass/main.scss */
+  /* line 392, ../sass/main.scss */
   #profile-bar ul.side-nav li:hover a, #profile-bar ul.side-nav li.active a {
     color: #fff;
   }
 
-  /* line 395, ../sass/main.scss */
+  /* line 399, ../sass/main.scss */
   .section .section-header {
     min-height: 12em;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 401, ../sass/main.scss */
+  /* line 405, ../sass/main.scss */
   #about {
     min-height: 680px;
     padding-bottom: 2em;
     background-size: 100%;
   }
-  /* line 406, ../sass/main.scss */
+  /* line 410, ../sass/main.scss */
   #about h1 {
     margin-top: 5em;
   }
-  /* line 410, ../sass/main.scss */
+  /* line 414, ../sass/main.scss */
   #about p {
     margin-left: 0.625em;
   }
-  /* line 415, ../sass/main.scss */
+  /* line 419, ../sass/main.scss */
   #about .latest-projects h5 {
     background: #245b96;
     padding: 0.25em 0.75em 0.375em;
@@ -445,11 +449,11 @@ footer {
     float: left;
     margin-bottom: 1.5em;
   }
-  /* line 425, ../sass/main.scss */
+  /* line 429, ../sass/main.scss */
   #about .latest-projects li {
     margin-bottom: 1em;
   }
-  /* line 428, ../sass/main.scss */
+  /* line 432, ../sass/main.scss */
   #about .latest-projects li h6 {
     margin-top: 0.5em;
     color: #fff;
@@ -457,7 +461,7 @@ footer {
     text-align: center;
   }
 
-  /* line 438, ../sass/main.scss */
+  /* line 442, ../sass/main.scss */
   .section .section-header {
     min-height: 19em;
   }

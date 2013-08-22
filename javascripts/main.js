@@ -12,4 +12,12 @@ $(document).ready(function() {
     e.preventDefault();
     Foundation.lib_methods.scrollTo($(window), $($(e.currentTarget).attr('href')).offset().top, 300);
   });
+
+  $('form').on('submit', function() {
+    return false;
+  });
+
+  $('form').on('valid', function() {
+    console.log('valid');
+  });
 });

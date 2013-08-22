@@ -141,23 +141,23 @@
               <p>Want to launch your next business idea? Need marketing or web design work done? Send me a message and get in touch. I currently reside in Berkeley, CA but have managed to work with clients from all over the country.</p>
             </div>
             <div class="large-7 columns">
-              <form>
+              <form data-abide>
                 <div class="row">
                   <div class="large-12 columns">
                     <label for="name">Name</label>
-                    <input id="name" type="text" placeholder="Harvey Specter">
+                    <input id="name" type="text" placeholder="Harvey Specter" required>
                   </div>
                 </div>
                 <div class="row">
                   <div class="large-12 columns">
                     <label for="email">Email</label>
-                    <input id="email" type="text" placeholder="harvey@pearsonhardman.com">
+                    <input id="email" type="text" placeholder="harvey@pearsonhardman.com" required pattern="email">
                   </div>
                 </div>
                 <div class="row">
                   <div class="large-12 columns">
                     <label for="message">Say hello</label>
-                    <textarea id="message"></textarea>
+                    <textarea id="message" required></textarea>
                   </div>
                 </div>
                 <div class="row">
@@ -221,7 +221,14 @@
   
   
   <script>
-    $(document).foundation();
+    $(document)
+      .foundation('clearing magellan')
+      .foundation('abide',
+        {
+          live_validate: false,
+          focus_on_invalid: false
+        }
+    );
   </script>
 
   <script src="javascripts/main.js"></script>
