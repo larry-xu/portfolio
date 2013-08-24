@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <title>Larry Xu</title>
 
   
@@ -31,13 +31,13 @@
 
           <div class="contact-container">
             <div class="social-container">
-              <a id="linkedin-icon" class="social-icon" href="#"><i class="icon-linkedin-sign"></i></a>
-              <a id="facebook-icon" class="social-icon" href="#"><i class="icon-facebook-sign"></i></a>
-              <a id="google-plus-icon" class="social-icon" href="#"><i class="icon-google-plus-sign"></i></a>
-              <a id="flickr-icon" class="social-icon" href="#"><i class="icon-flickr"></i></a>
+              <a id="linkedin-icon" class="social-icon" href="http://www.linkedin.com/in/larryxu/"><i class="icon-linkedin-sign"></i></a>
+              <a id="facebook-icon" class="social-icon" href="http://www.facebook.com/lxu222/"><i class="icon-facebook-sign"></i></a>
+              <a id="google-plus-icon" class="social-icon" href="https://plus.google.com/117576472465912841551/"><i class="icon-google-plus-sign"></i></a>
+              <a id="flickr-icon" class="social-icon" href="http://www.flickr.com/photos/larryxu/"><i class="icon-flickr"></i></a>
             </div>
             <div class="contact-info">
-              <i class="icon-envelope"></i> : <a href="#">larry@larryxu.com</a>
+              <i class="icon-envelope"></i> : <a href="mailto:larry@larryxu.com">larry@larryxu.com</a>
             </div>
             <div class="contact-info">
               <i class="icon-phone contact-icon"></i> : 408.334.3179
@@ -64,7 +64,7 @@
           <div class="row">
             <div class="large-8 columns">
               <p>I am a Berkeley-based web and graphic designer.</p>
-              <p>My passion is to develop innovative web applications and design beautiful promotional graphics. I have had experience crafting designs and websites for various clients, organizations, and companies, as well as completing independent projects and competitions. You can check out samples of my work below, as well as my <a href="#">resume</a> for more detailed information.</p>
+              <p>My passion is to develop innovative web applications and design beautiful promotional graphics. I have had experience crafting designs and websites for various clients, organizations, and companies, as well as completing independent projects and competitions. You can check out samples of my work below, as well as my <a href="larryxu_resume.pdf">resume</a> for more detailed information.</p>
             </div>
             <div class="large-4 columns hide-for-medium-down latest-projects">
               <h5>Latest Projects</h5>
@@ -93,15 +93,15 @@
           <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 portfolio-grid clearing-thumbs" data-clearing>
             <li>
               <a class="thumbnail" href="images/web/la_pluma.png"><img src="images/web/la_pluma_small.png" data-caption="<strong>La Pluma:</strong> La Pluma literary magazine commissioned me to develop their online public archival and submission system for students to post creative works and media."></a>
-              <h6>La Pluma<a href="http://lapluma.org/"><i class="icon-external-link"></i></a></h6>
+              <h6>La Pluma</h6>
             </li>
             <li>
               <a class="thumbnail" href="images/web/mvwebdev.png"><img src="images/web/mvwebdev_small.png" data-caption="<strong>MV WebDev:</strong> As Vice President of Monta Vista WebDev, I created this website to reach out to students who might be interested in web design."></a>
-              <h6>MV WebDev<a href="http://www.mvwebdev.com/"><i class="icon-external-link"></i></a></h6>
+              <h6>MV WebDev</h6>
             </li>
             <li>
               <a class="thumbnail" href="images/web/mvfbla.png"><img src="images/web/mvfbla_small.png" data-caption="<strong>MV FBLA:</strong> As Director of Technology of my local FBLA chapter, I created this website to enhance MVFBLA’s online presence. Features include a news feed, photo gallery, and competitive information."></a>
-              <h6>MV FBLA<a href="http://www.mvfbla.org/"><i class="icon-external-link"></i></a></h6>
+              <h6>MV FBLA</h6>
             </li>
           </ul>
         </div>

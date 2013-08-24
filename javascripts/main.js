@@ -2,7 +2,6 @@ $(document).ready(function() {
 
   if($(document).width() < 640) {
     $(document).foundation('clearing','off');
-    $('a.thumbnail').addClass('disabled');
     $('a.thumbnail').on('click', function(e) {
       e.preventDefault();
     });

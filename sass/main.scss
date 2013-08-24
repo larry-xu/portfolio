@@ -51,6 +51,7 @@ $italicFont: "open_sanslight_italic", "Helvetica Neue", "Helvetica", Helvetica, 
 body {
   font-family: $bodyFont;
   background: #f9f9f9;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -200,11 +201,7 @@ strong {
       > a {
         display: block;
         border: 1px solid #ddd;
-
-        &.disabled {
-          cursor: default;
-          -webkit-tap-highlight-color: rgba(0,0,0,0);
-        }
+        cursor: default;
 
         img {
           width: 100%;
@@ -308,8 +305,8 @@ footer {
   text-align: left;
 }
 
-.clearing-main-prev, .clearing-main-next {
-  display: none;
+.visible-img img {
+  max-width: 85%;
 }
 
 @media only screen and (min-width: 640px) {
@@ -318,6 +315,10 @@ footer {
   }
   .hide-for-small {
     display: inherit !important;
+  }
+
+  #about {
+    min-height: 600px;
   }
 
   #about p, .section p {
@@ -402,6 +403,10 @@ footer {
 
   .medium-block-grid-2 > li {
     width: 50%;
+  }
+
+  .section .portfolio-grid li > a {
+    cursor: auto;
   }
 }
 
