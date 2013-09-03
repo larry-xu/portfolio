@@ -281,6 +281,10 @@ form {
       margin-right: 0.35em;
     }
   }
+
+  .alert-box {
+    @include boldFont;
+  }
 }
 
 footer {

@@ -23,9 +23,7 @@ $(document).ready(function() {
     $.post('email.php', { name: name, email: email, message: message }, function(data) {
       var jsonData = JSON.parse(data);
       if(jsonData.sent)
-        console.log('Mail sent successfully');
-      else
-        console.log('Mail attempt failed');
+        $('form').append('<div class="alert-box success">Mail sent successfully.</div>');
     });
   });
 });

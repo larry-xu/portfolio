@@ -288,113 +288,118 @@ form .button:hover {
 form .button i {
   margin-right: 0.35em;
 }
+/* line 285, ../sass/main.scss */
+form .alert-box {
+  font-family: "open_sansbold", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
 
-/* line 286, ../sass/main.scss */
+/* line 290, ../sass/main.scss */
 footer {
   font-size: 0.75em;
   color: #999;
 }
 
-/* line 291, ../sass/main.scss */
+/* line 295, ../sass/main.scss */
 .clearing-assembled .clearing-container .visible-img {
   height: 85%;
 }
 
-/* line 295, ../sass/main.scss */
+/* line 299, ../sass/main.scss */
 .clearing-assembled .clearing-container .carousel {
   height: 14.5%;
   margin-top: 0.5%;
 }
 
-/* line 300, ../sass/main.scss */
+/* line 304, ../sass/main.scss */
 .clearing-blackout li a.thumbnail {
   border: none;
 }
 
-/* line 304, ../sass/main.scss */
+/* line 308, ../sass/main.scss */
 .clearing-caption {
   text-align: left;
 }
 
-/* line 308, ../sass/main.scss */
+/* line 312, ../sass/main.scss */
 .visible-img img {
   max-width: 85%;
 }
 
 @media only screen and (min-width: 640px) {
-  /* line 313, ../sass/main.scss */
+  /* line 317, ../sass/main.scss */
   .hide-for-medium, .hide-for-medium-up {
     display: none !important;
   }
 
-  /* line 316, ../sass/main.scss */
+  /* line 320, ../sass/main.scss */
   .hide-for-small {
     display: inherit !important;
   }
 
-  /* line 320, ../sass/main.scss */
+  /* line 324, ../sass/main.scss */
   #about {
     min-height: 600px;
   }
 
-  /* line 324, ../sass/main.scss */
+  /* line 328, ../sass/main.scss */
   #about p, .section p {
     font-size: 1em;
   }
 
-  /* line 328, ../sass/main.scss */
+  /* line 332, ../sass/main.scss */
   #profile-bar {
     position: fixed;
     height: 100%;
     text-align: right;
     border-right: 1px solid #ccc;
   }
-  /* line 334, ../sass/main.scss */
+  /* line 338, ../sass/main.scss */
   #profile-bar #profile-picture {
     padding-right: 0.9375em;
   }
-  /* line 337, ../sass/main.scss */
+  /* line 341, ../sass/main.scss */
   #profile-bar #profile-picture img {
     height: 130px;
   }
-  /* line 342, ../sass/main.scss */
+  /* line 346, ../sass/main.scss */
   #profile-bar #profile-info {
     position: static;
   }
-  /* line 345, ../sass/main.scss */
+  /* line 349, ../sass/main.scss */
   #profile-bar #profile-info h2 {
     font-size: 1.675em;
   }
-  /* line 349, ../sass/main.scss */
+  /* line 353, ../sass/main.scss */
   #profile-bar #profile-info p {
     font-size: 0.875em;
   }
-  /* line 353, ../sass/main.scss */
+  /* line 357, ../sass/main.scss */
   #profile-bar #profile-info .contact-container {
     position: absolute;
     bottom: 0;
     margin-bottom: 0.9375em;
     text-align: left;
   }
-  /* line 361, ../sass/main.scss */
+  /* line 365, ../sass/main.scss */
   #profile-bar [data-magellan-expedition] {
     background: inherit;
     padding: 0.875em 0;
   }
-  /* line 366, ../sass/main.scss */
+  /* line 370, ../sass/main.scss */
   #profile-bar ul.side-nav li {
     margin: 0;
     border-top: 1px solid #ccc;
     text-align: left;
   }
-  /* line 371, ../sass/main.scss */
+  /* line 375, ../sass/main.scss */
   #profile-bar ul.side-nav li a {
     padding: 0.875em 1.5em;
     font-family: "open_sansbold", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     color: #666;
   }
-  /* line 376, ../sass/main.scss */
+  /* line 380, ../sass/main.scss */
   #profile-bar ul.side-nav li a i {
     margin-right: 0.25em;
     display: -moz-inline-stack;
@@ -407,56 +412,56 @@ footer {
     width: 1.5em;
     text-align: center;
   }
-  /* line 385, ../sass/main.scss */
+  /* line 389, ../sass/main.scss */
   #profile-bar ul.side-nav li:last-of-type {
     border-bottom: 1px solid #ccc;
   }
-  /* line 389, ../sass/main.scss */
+  /* line 393, ../sass/main.scss */
   #profile-bar ul.side-nav li:hover, #profile-bar ul.side-nav li.active {
     background: #284c72;
     border-top-color: #1A3658;
   }
-  /* line 393, ../sass/main.scss */
+  /* line 397, ../sass/main.scss */
   #profile-bar ul.side-nav li:hover a, #profile-bar ul.side-nav li.active a {
     color: #fff;
   }
 
-  /* line 400, ../sass/main.scss */
+  /* line 404, ../sass/main.scss */
   .section .section-header {
     min-height: 12em;
   }
 
-  /* line 404, ../sass/main.scss */
+  /* line 408, ../sass/main.scss */
   .medium-block-grid-2 > li {
     width: 50%;
   }
 
-  /* line 408, ../sass/main.scss */
+  /* line 412, ../sass/main.scss */
   .section .portfolio-grid li > a {
     cursor: auto;
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 414, ../sass/main.scss */
+  /* line 418, ../sass/main.scss */
   .hide-for-small, .hide-for-medium-down, .hide-for-large-down {
     display: block !important;
   }
 
-  /* line 418, ../sass/main.scss */
+  /* line 422, ../sass/main.scss */
   #about {
     min-height: 680px;
     padding-bottom: 2em;
     background-position: 80% 0;
   }
-  /* line 423, ../sass/main.scss */
+  /* line 427, ../sass/main.scss */
   #about h1 {
     margin-top: 5em;
   }
-  /* line 427, ../sass/main.scss */
+  /* line 431, ../sass/main.scss */
   #about p {
     margin-left: 0.625em;
   }
-  /* line 432, ../sass/main.scss */
+  /* line 436, ../sass/main.scss */
   #about .latest-projects h5 {
     background: #245b96;
     padding: 0.25em 0.75em 0.375em;
@@ -466,11 +471,11 @@ footer {
     float: left;
     margin-bottom: 1.5em;
   }
-  /* line 442, ../sass/main.scss */
+  /* line 446, ../sass/main.scss */
   #about .latest-projects li {
     margin-bottom: 1em;
   }
-  /* line 445, ../sass/main.scss */
+  /* line 449, ../sass/main.scss */
   #about .latest-projects li h6 {
     margin-top: 0.5em;
     color: #fff;
@@ -478,18 +483,18 @@ footer {
     text-align: center;
   }
 
-  /* line 455, ../sass/main.scss */
+  /* line 459, ../sass/main.scss */
   .section .section-header {
     min-height: 19em;
   }
 
-  /* line 459, ../sass/main.scss */
+  /* line 463, ../sass/main.scss */
   .large-block-grid-3 > li {
     width: 33.33333%;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 465, ../sass/main.scss */
+  /* line 469, ../sass/main.scss */
   #about {
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
