@@ -17,6 +17,15 @@ $(document).ready(function() {
   });
 
   $('form').on('valid', function() {
-    console.log('valid');
+    var name = $('#name').val();
+    var email = $('#email').val();
+    var message = $('#message').val();
+    $.post('email.php', { name: name, email: email, message: message }, function(data) {
+      var jsonData = JSON.parse(data);
+      if(jsonData.sent)
+        console.log('Mail sent successfully');
+      else
+        console.log('Mail attempt failed');
+    });
   });
 });
