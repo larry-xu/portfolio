@@ -190,6 +190,11 @@ strong {
     font-size: 0.875em;
   }
 
+  p.show-for-medium-up i {
+    margin-right: 0.3em;
+    color: #444;
+  }
+
   .portfolio-grid {
     margin: 0 -0.625em;
 
@@ -299,6 +304,10 @@ footer {
 .clearing-assembled .clearing-container .carousel {
   height: 14.5%;
   margin-top: 0.5%;
+}
+
+.clearing-assembled .clearing-container .carousel > ul li {
+  width: 220px;
 }
 
 .clearing-blackout li a.thumbnail {
