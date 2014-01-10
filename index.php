@@ -10,7 +10,7 @@
 
   
   <link rel="stylesheet" href="stylesheets/app.css">
-  <link  rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+  <link  rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   <link rel="stylesheet" href="stylesheets/main.css">
   
 
@@ -31,24 +31,24 @@
 
           <div class="contact-container">
             <div class="social-container">
-              <a id="linkedin-icon" class="social-icon" href="http://www.linkedin.com/in/larryxu/"><i class="icon-linkedin-sign"></i></a>
-              <a id="facebook-icon" class="social-icon" href="http://www.facebook.com/lxu222/"><i class="icon-facebook-sign"></i></a>
-              <a id="google-plus-icon" class="social-icon" href="https://plus.google.com/117576472465912841551/"><i class="icon-google-plus-sign"></i></a>
-              <a id="flickr-icon" class="social-icon" href="http://www.flickr.com/photos/larryxu/"><i class="icon-flickr"></i></a>
+              <a id="linkedin-icon" class="social-icon" href="http://www.linkedin.com/in/larryxu/"><i class="fa fa-linkedin-square"></i></a>
+              <a id="facebook-icon" class="social-icon" href="http://www.facebook.com/lxu222/"><i class="fa fa-facebook-square"></i></a>
+              <a id="github-icon" class="social-icon" href="https://github.com/larry-xu"><i class="fa fa-github-square"></i></a>
+              <a id="flickr-icon" class="social-icon" href="http://www.flickr.com/photos/larryxu/"><i class="fa fa-flickr"></i></a>
             </div>
             <div class="contact-info">
-              <i class="icon-envelope"></i> : <a href="mailto:larry@larryxu.com">larry@larryxu.com</a>
+              <i class="fa fa-envelope"></i> : <a href="mailto:larry@larryxu.com">larry@larryxu.com</a>
             </div>
             <div class="contact-info">
-              <i class="icon-phone contact-icon"></i> : 408.334.3179
+              <i class="fa fa-phone contact-icon"></i> : 408.334.3179
             </div>
           </div>
 
           <ul id="nav" class="row side-nav hide-for-small" data-magellan-expedition>
-            <li data-magellan-arrival="about" class="active"><a href="#about" class="scrollTo"><i class="icon-user"></i>About</a></li>
-            <li data-magellan-arrival="web"><a href="#web" class="scrollTo"><i class="icon-desktop"></i>Web</a></li>
-            <li data-magellan-arrival="graphics"><a href="#graphics" class="scrollTo"><i class="icon-picture"></i>Graphics</a></li>
-            <li data-magellan-arrival="contact"><a href="#contact" class="scrollTo"><i class="icon-comment"></i>Contact</a></li>
+            <li data-magellan-arrival="about" class="active"><a href="#about" class="scrollTo"><i class="fa fa-user"></i>About</a></li>
+            <li data-magellan-arrival="web"><a href="#web" class="scrollTo"><i class="fa fa-desktop"></i>Web</a></li>
+            <li data-magellan-arrival="graphics"><a href="#graphics" class="scrollTo"><i class="fa fa-picture-o"></i>Graphics</a></li>
+            <li data-magellan-arrival="contact"><a href="#contact" class="scrollTo"><i class="fa fa-comment"></i>Contact</a></li>
           </ul>
         </div>
       </div>
@@ -90,7 +90,7 @@
         </div>
         <div class="large-12 columns">
           <p>As a professional web developer, I have worked on several projects over the years and have become experienced with the various stages of design, development, and deployment using the latest web technologies. Being a web developer involves understanding both complex programming paradigms as well as having a creative vision to design an effective user experience. My programming knowledge primarily consists of Java, HTML5, CSS3, JavaScript, PHP, Rails, Node.js, MySQL, and MongoDB. If you're not familiar with all or any of those, this basically means I have completed a lot of different web design tasks and am flexible with the tools at my disposal. I have created websites and applications for various organizations as well as completed internships at local technology companies doing application development work. I have even submitted and presented my websites for national competitions, receiving several awards for my work in the web design field.</p>
-          <p class="show-for-medium-up"><i class="icon-chevron-down"></i>Click on the thumbnail images below to learn more about each project. Live website links for some examples are provided.</p>
+          <p class="show-for-medium-up"><i class="fa fa-chevron-down"></i>Click on the thumbnail images below to learn more about each project. Live website links for some examples are provided.</p>
           <hr>
           <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 portfolio-grid clearing-thumbs" data-clearing>
             <li>
@@ -143,7 +143,7 @@
         </div>
         <div class="large-12 columns">
           <p>As an experienced graphic designer, I work with both print and online media to create visually appealing designs and brands. I love to study and research fine typography, beautiful color schemes, and modern design layouts so that I can improve my own personal aesthetic skills. I believe having a clear brand and cohesive marketing strategy is imperative to an organization's success. That being said, I have collaborated with several student groups and individuals as a graphic designer in order to help better promote their goals. I am familiar with design software tools like Adobe Photoshop, Illustrator, and InDesign as well as digital SLR photography and photo-editing. I enjoy creating mockups, mockups, and more mockups in an iterative design process where I actively listen to client feedback in order to ensure their satisfaction. My knowledge stems from both personal experience and a formal study of graphic design in high school, and I have even submitted some design work for a state competition.</p>
-          <p class="show-for-medium-up"><i class="icon-chevron-down"></i>Click on the thumbnail images below to learn more about each project.</p>
+          <p class="show-for-medium-up"><i class="fa fa-chevron-down"></i>Click on the thumbnail images below to learn more about each project.</p>
           <hr>
           <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 portfolio-grid clearing-thumbs" data-clearing>
             <li>
@@ -213,7 +213,7 @@
                 </div>
                 <div class="row">
                   <div class="large-12 columns">
-                    <button type="submit" class="button"><i class="icon-envelope"></i>Send</button>
+                    <button type="submit" class="button"><i class="fa fa-envelope"></i>Send</button>
                   </div>
                 </div>
               </form>
