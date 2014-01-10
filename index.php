@@ -71,12 +71,12 @@
               <h5>Latest Projects</h5>
               <ul class="no-bullet">
                 <li>
-                  <img src="images/web/baarzo_small.png">
-                  <h6>Baarzo</h6>
+                  <img src="images/web/chatterbot_small.png">
+                  <h6>Chatterbot</h6>
                 </li>
                 <li>
-                  <img src="images/graphics/stephen_skeel_small.png">
-                  <h6>Stephen Skeel</h6>
+                  <img src="images/web/telebearsrtc_small.png">
+                  <h6>telebearsRTC</h6>
                 </li>
               </ul>
             </div>
@@ -89,10 +89,18 @@
           <h1>Websites</h1>
         </div>
         <div class="large-12 columns">
-          <p>As a professional web developer, I have worked on several projects over the years and have become experienced with the various stages of design, development, and deployment using the latest web technologies. Being a web developer involves understanding both complex programming paradigms as well as having a creative vision to design an effective user experience. My programming knowledge primarily consists of Java, HTML5, CSS3, JavaScript, PHP, Rails, Node.js, MySQL, and MongoDB. If you're not familiar with all or any of those, this basically means I have completed a lot of different web design tasks and am flexible with the tools at my disposal. I have created websites and applications for various organizations as well as completed internships at local technology companies doing application development work. I have even submitted and presented my websites for national competitions, receiving several awards for my work in the web design field.</p>
+          <p>As a professional web developer, I have worked on several projects over the years and have become experienced with the design, development, and deployment of web applications using the latest technologies. Being a web developer involves understanding both complex programming paradigms as well as having a creative vision to design an effective user experience. My programming knowledge primarily consists of HTML5, CSS3, JavaScript, Python, Node.js, MySQL, and MongoDB. I am flexible with the tools at my disposal and am always open to learning new languages, tools, and frameworks. I have created websites and applications for various organizations as well as completed internships at local technology companies doing application development work. I have even submitted and presented my websites for national competitions, receiving several awards for my work in the web design field.</p>
           <p class="show-for-medium-up"><i class="fa fa-chevron-down"></i>Click on the thumbnail images below to learn more about each project. Live website links for some examples are provided.</p>
           <hr>
           <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 portfolio-grid clearing-thumbs" data-clearing>
+            <li>
+              <a class="thumbnail" href="images/web/chatterbot.png"><img src="images/web/chatterbot_small.png" data-caption="<strong><a href='http://chatterbot.lehaozhang.com/' target='_blank'>Chatterbot</a>:</strong> Chatterbot is a voice-controlled AI chat bot made as a Chrome experiment over winter break to explore the use of voice recognition and speech synthesis API's. I worked on this project with a fellow UC Berkeley EECS student Leo Zhang, and I focused on building the user interface and integrating the voice API's. Chatterbot uses a custom version of the ALICE AI bot and the Google Web Speech API for voice recognition."></a>
+              <h6>Chatterbot</h6>
+            </li>
+            <li>
+              <a class="thumbnail" href="images/web/telebearsrtc.png"><img src="images/web/telebearsrtc_small.png" data-caption="<strong><a href='http://telebearsrtc.hp.af.cm/' target='_blank'>telebearsRTC</a>:</strong> telebearsRTC is an online tool that allows UC Berkeley students to find currently updated enrollment information for courses. It is built on top of Node.js, Express, MongoDB, and Angular.js and utilizes course information pulled from UC Berkeley's telebears enrollment system. This project was an independent work completed in order to make course registration an easier process."></a>
+              <h6>telebearsRTC</h6>
+            </li>
             <li>
               <a class="thumbnail" href="images/web/baarzo.png"><img src="images/web/baarzo_small.png" data-caption="<strong>Baarzo:</strong> Baarzo is a small social video indexing startup which contacted me to work as a UI designer/social platform engineer over the summer of 2013. I collaborated closely with a very talented team of engineers and computer vision experts to craft a mobile application in its early development stages. Working on this project has introduced me to mobile app development and technologies such as node.js and objective-c."></a>
               <h6>Baarzo</h6>
@@ -225,7 +233,7 @@
       <footer class="row">
         <div class="large-12 columns">
           <hr>
-          <p>&copy; Copyright 2013 Larry Xu. All rights reserved.</p>
+          <p>&copy; Copyright 2014 Larry Xu. All rights reserved.</p>
         </div> 
       </footer>
 
