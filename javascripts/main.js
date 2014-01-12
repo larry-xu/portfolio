@@ -7,7 +7,7 @@ $(document).ready(function() {
     });
   }
   else {
-    var fileArray = new Array("images/web/baarzo.png","images/web/verdadera.png","images/web/la_pluma.png","images/web/mvwebdev.png","images/web/mvfbla.png","images/web/realvu.PNG","images/web/teeno.png","images/web/ae.png","images/web/mvnhs.png","images/web/mvmatshack.png","images/graphics/stephen_skeel.png","images/graphics/ddp.png","images/graphics/projects.png","images/graphics/mvwebdev_graphics.png","images/graphics/mvfbla_graphics.png","images/graphics/nikitas.png","images/graphics/brochures.png","images/graphics/it_graphic.png");
+    var fileArray = new Array("images/web/chatterbot.png", "images/web/telebearsrtc.png", "images/web/baarzo.png","images/web/verdadera.png","images/web/la_pluma.png","images/web/mvwebdev.png","images/web/mvfbla.png","images/web/realvu.PNG","images/web/teeno.png","images/web/ae.png","images/web/mvnhs.png","images/web/mvmatshack.png","images/graphics/stephen_skeel.png","images/graphics/ddp.png","images/graphics/projects.png","images/graphics/mvwebdev_graphics.png","images/graphics/mvfbla_graphics.png","images/graphics/nikitas.png","images/graphics/brochures.png","images/graphics/it_graphic.png");
     var imageArray = new Array();
 
     for(var i=0; i < fileArray.length; i++) {
