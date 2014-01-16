@@ -98,7 +98,7 @@
               <h6>Chatterbot</h6>
             </li>
             <li>
-              <a class="thumbnail" href="images/web/telebearsrtc.png"><img src="images/web/telebearsrtc_small.png" data-caption="<strong><a href='http://telebearsrtc.hp.af.cm/' target='_blank'>telebearsRTC</a>:</strong> telebearsRTC is an online tool that allows UC Berkeley students to find currently updated enrollment information for courses. It is built on top of Node.js, Express, MongoDB, and Angular.js and utilizes course information pulled from UC Berkeley's telebears enrollment system. This project was an independent work completed in order to make course registration an easier process."></a>
+              <a class="thumbnail" href="images/web/telebearsrtc.png"><img src="images/web/telebearsrtc_small.png" data-caption="<strong><a href='http://www.telebearsrtc.com/' target='_blank'>telebearsRTC</a>:</strong> telebearsRTC is an online tool that allows UC Berkeley students to find currently updated enrollment information for courses. It is built on top of Node.js, Express, MongoDB, and Angular.js and utilizes course information pulled from UC Berkeley's telebears enrollment system. This project was an independent work completed in order to make course registration an easier process."></a>
               <h6>telebearsRTC</h6>
             </li>
             <li>
